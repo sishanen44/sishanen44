@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <title>TRAVEL</title>
+    <style>
+      body {
+        background-color: #ffffff;
+        color: #ffffff;
+      }
+      .img-grid img {
+        width: 100%;
+        height: auto;
+        border: 2px solid #333;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .img-grid img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+      }
+      .img-grid .col-6 {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-secondary-subtle fixed-top">
+      <div
+        class="container d-flex justify-content-between align-items-center py-3"
+      >
+        <div class="d-flex align-items-center">
+          <img
+            src="logo.png"
+            alt="PrimeWay Travel Logo"
+            class="rounded-circle"
+            height="40"
+          />
+          <span class="ms-3 h4 mb-0 text-dark">PrimeWay Travel</span>
+        </div>
+        <nav class="d-flex align-items-center">
+          <a href="home.html" class="text-dark text-decoration-none me-3"
+            >Home</a
+          >
+          <a href="about.html" class="text-dark text-decoration-none me-3"
+            >About</a
+          >
+          <div class="dropdown">
+            <button
+              class="btn btn-dark dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Other
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+              <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+              <li><a class="dropdown-item" href="sosmed.html">Sosmed</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="d-flex align-items-center">
+          <input
+            type="text"
+            class="form-control bg-secondary text-white border-0 me-2"
+            placeholder="Search"
+          />
+          <button class="btn btn-outline-light">Search</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="text-center text-dark py-5 mt-5">
+      <h2 class="fst-italic">Gallery</h2>
+      <h1 class="fw-bold"> Travel Gallery</h1>
+    </div>
+    <div class="container mt-2">
+      <div class="row img-grid">
+        <div class="col-6 col-md-3 mb-4">
+          <img
+            src="kanada.jpg"
+            alt="A beautiful lavender field with a tree in the middle under a starry sky"
+          />
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+          <img
+            src="jepang.jpg"
+            alt="A person in a colorful dress standing in front of a wall with the number 20"
+          />
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+          <img
+            src="keukenhof.jpg"
+            alt="A person with blue body paint and a red heart tattoo"
+          />
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+          <img
+            src="paris.jpg"
+            alt="A person wearing a VR headset in a dark room"
+          />
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+          <img
+            src="belanda.jpg"
+            alt="A light bulb on a blue and yellow background"
+          />
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+          <img
+            src="india.jpg"
+            alt="Hot air balloons flying over a mountainous landscape at sunset"
+          />
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+          <img
+            src="spanyol.jpg"
+            alt="An architectural structure with arches and reflections in water"
+          />
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img
+              src="keukenhof.jpg"
+              alt="A person with blue body paint and a red heart tattoo"
+            />
+          </div>
+          <div class="col-6 col-md-3 mb-4">
+            <img
+              src="paris.jpg"
+              alt="A person wearing a VR headset in a dark room"
+            />
+          </div>
+          <div class="col-6 col-md-3 mb-4">
+            <img
+              src="belanda.jpg"
+              alt="A light bulb on a blue and yellow background"
+            />
+          </div>
+          <div class="col-6 col-md-3 mb-4">
+            <img
+              src="india.jpg"
+              alt="Hot air balloons flying over a mountainous landscape at sunset"
+            />
+          </div>
+          <div class="col-6 col-md-3 mb-4">
+            <img
+              src="spanyol.jpg"
+              alt="An architectural structure with arches and reflections in water"
+            />
+          </div>
+        
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div class="container-fluid bg-secondary-subtle">
+        <div class="row">
+          <div class="col-md-3">
+            <h5>Section</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Features</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark textdark-decoration-none">FAQs</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Section</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Features</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">FAQs</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Section</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Features</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">FAQs</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark text-decoration-none">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control bg-light text-white border-0"
+                placeholder="Email address"
+              />
+              <button class="btn btn-outline-dark">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <p>© 2024 Company, Inc. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
